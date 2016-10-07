@@ -2,14 +2,14 @@
 	<head>
 		<script>
 			alert("Aundres (How Some Spell It) Is A Bitch And Will Fuck You Over So Whatever You Do. Don't Date Him");
-			var permLv = 0;
+			var permLv = 1;
 			
 			
 			function checkPerm() {
 			 
 			 if (permLv == 0) {
 			  document.getElementById('perms-1').innerHTML = "(NO PERMISSION)";
-			  permLv = Number(localStorage.permLvstat);
+			  //permLv = Number(localStorage.permLvstat);
 			 } else if (permLv == 1) {
 			  localStorage.permLvstat = 1;
 			  permLv = Number(localStorage.permLvstat);
